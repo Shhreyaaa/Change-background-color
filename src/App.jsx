@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>   
-    <div style={{border:'1px solid black',width:'100%', height:'585px', textAlign:'center'}}>
+    <div style={{width:'100%', height:'585px', textAlign:'center'}}>
     <h1 style={{marginTop:'30px', textAlign:'center',fontFamily:'sans-serif'}}>BACKGROUND CHANGE</h1>
     <Button onClick={changeToOrange} variant="outline-warning text-black border-2 " style={{marginTop:'130px', width:'250px', height:'50px',fontWeight:'bold'}}>
     {currentColor === 'orange' ? 'CHANGE TO WHITE' : 'CHANGE TO ORANGE'}
